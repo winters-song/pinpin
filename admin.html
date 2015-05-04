@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>聘聘</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="resources/js/libs/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="resources/css/admin.css">
+
+  <script src="resources/js/vendor/modernizr-2.6.2.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="resources/js/libs/utils/json3.min.js"></script>
+    <script src="resources/js/libs/utils/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body class="home">
+
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="navbar-header">
+    <a class="navbar-brand" href="#" title="聘聘">
+      <img src="resources/img/logo2.png"> 聘聘
+    </a>
+  </div>
+  <div id="navbar" class="pull-right">
+    <ul class="nav navbar-nav">
+      <li><span class="time">2015年3月31日 13:45:54</span></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">账号：xiaoxiao  (超级管理员) <span class="caret"></span></a>
+        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+          <li><a href="#">退出</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div><!--/.nav-collapse -->
+</nav>
+
+<section class="navigation">
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingOne">
+        <h4 class="panel-title">
+          <a data-toggle="collapse"  href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            企业端管理
+          </a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body">
+          <ul> 
+            <li class="active">
+              <a href="#">企业用户</a>
+            </li>
+            <li>
+              <a href="#">招聘管理</a>
+            </li>
+            <li>
+              <a href="#">企业服务</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingTwo">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            个人端管理
+          </a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="panel-body">
+          <ul> 
+            <li>
+              <a href="#">话题管理</a>
+            </li>
+            <li>
+              <a href="#">个人用户</a>
+            </li>
+            <li>
+              <a href="#">文章管理</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse"  href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            管理员权限
+          </a>
+        </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingFour">
+        <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse"  href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            版本控制
+          </a>
+        </h4>
+      </div>
+      <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+        <div class="panel-body">
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingFive">
+        <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse"  href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            数据分析
+          </a>
+        </h4>
+      </div>
+      <div id="collapseFive" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFive">
+        <div class="panel-body">
+          <ul> 
+            <li>
+              <a href="#">数据分析</a>
+            </li>
+            <li>
+              <a href="#">城市统计</a>
+            </li>
+            <li>
+              <a href="#">每日新增</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="main-body">
+  <div class="content">
+    
+    <div class="row filter">
+      <input type="text" class="form-control" placeholder="筛选公司名字" style="margin-left: 250px;">
+      <input type="text" class="form-control" placeholder="筛选联系方式" style="margin-left: 200px;">
+      <button class="btn btn-primary search-btn">搜索</button>
+
+      <label for="" class="counter">共 <span class="highlight">163</span> 人</label>
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>编号</th>
+          <th>负责人</th>
+          <th>公司名称</th>
+          <th>所在地</th>
+          <th>联系方式</th>
+          <th>公司规模</th>
+          <th>地址</th>
+          <th>企业服务</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>五八</td>
+          <td>聘聘</td>
+          <td>北京市</td>
+          <td>18101088165</td>
+          <td>201-500人 </td>
+          <td>北京市广渠路首...</td>
+          <td>VIP1</td>  
+        </tr>
+        <tr>
+          <th scope="row">1</th>
+          <td>五八</td>
+          <td>聘聘</td>
+          <td>北京市</td>
+          <td>18101088165</td>
+          <td>201-500人 </td>
+          <td>北京市广渠路首...</td>
+          <td>VIP1</td>  
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+<script src="resources/js/libs/jquery/jquery-1.11.2.min.js"></script>
+<script src="resources/js/libs/bootstrap/js/bootstrap.min.js"></script>
+<script>
+$(function () {
+
+  var $nav = $('.navigation');
+  $nav.find('.panel-body a').on('click', function(){
+    $nav.find('.panel-body li.active').removeClass('active');
+    $(this).parent().addClass('active');
+  })
+  // body...
+})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+@import '_base.less';
+@import '_global.less';
+
+.navbar{
+	height: 65px;
+	border: 0;
+}
+
+
+.navbar-inverse{
+	background-color: #31303f;
+
+	.navbar-brand{
+		color: #fff;
+		font-size: 26px;
+	}
+
+	.navbar-nav>li{
+		&>span, &>a{
+			color: #fff;
+			padding: 20px 15px;
+			display: inline-block;
+		}
+	}
+} 
+
+
+.navigation{
+	position: absolute;
+	left: 0;
+	top: 65px;
+	width: 240px;
+	bottom:0;
+	background-color: #3f3e50;
+	padding-top: 10px;
+
+	.panel{
+		background-color: transparent;
+	}
+
+	.panel-heading{
+		padding:0;
+	}
+
+	.panel-title>a{
+		padding: 15px 20px;
+		display: block;
+		text-decoration: none !important;
+	}
+
+	.panel-group .panel{
+		border-radius:0;
+		border:0;
+	}
+
+	.panel-default>.panel-heading{
+		border-radius:0;
+		background-color: #313040;
+		color: #fff\9;
+		color: rgba(255,255,255,0.7);
+	}
+
+	.panel-group .panel-heading+.panel-collapse .panel-body{
+		border-top: 0;
+	}
+
+	.panel-body{
+		padding:0;
+
+		li>a{
+			display: block;
+			padding: 15px 40px;
+			color: #fff\9;
+			color: rgba(255,255,255,0.7);
+			text-decoration: none !important;
+		}
+
+		.active{
+			background: transparent url(../img/arrow-left.png) right center no-repeat;
+		}
+	}
+
+}
+
+.main-body{
+	margin-left: 240px;
+
+	.content{
+		padding: 20px;
+	}
+
+	.filter{
+		margin-bottom: 20px;
+		input.form-control{
+			width: 150px;
+			float: left;
+			border-color: #f60;
+		}
+
+		.search-btn{
+			width: 100px;
+			margin-left: 20px;
+			border-color: #f60;
+			background-color: #f60;
+
+			&:hover{
+				background-color: #f80;
+			}
+		}
+
+		.counter{
+			color: #999;
+			margin-left: 20px;
+			font-size: 20px;
+			position: relative;
+  		top: 2px;
+
+			.highlight{
+				color: #f60;
+			}
+		}
+	}
+
+	.table{
+		th{
+			font-size: 16px;
+		}
+	}
+
+
+}
